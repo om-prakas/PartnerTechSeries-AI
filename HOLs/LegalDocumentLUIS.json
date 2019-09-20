@@ -1,5 +1,5 @@
 {
-  "luis_schema_version": "3.2.0",
+  "luis_schema_version": "4.0.0",
   "versionId": "0.1",
   "name": "Legal Document Verification",
   "desc": "This application for verifying legal documents",
@@ -37,31 +37,38 @@
   "entities": [
     {
       "name": "Client Name",
-      "roles": []
+      "roles": [],
+      "hierarchyChildren": []
     },
     {
       "name": "Contract Date",
-      "roles": []
+      "roles": [],
+      "hierarchyChildren": []
     },
     {
       "name": "Contract Value",
-      "roles": []
+      "roles": [],
+      "hierarchyChildren": []
     },
     {
       "name": "End Date",
-      "roles": []
+      "roles": [],
+      "hierarchyChildren": []
     },
     {
       "name": "Jurisdiction Place",
-      "roles": []
+      "roles": [],
+      "hierarchyChildren": []
     },
     {
       "name": "Services",
-      "roles": []
+      "roles": [],
+      "hierarchyChildren": []
     },
     {
       "name": "Vendor Name",
-      "roles": []
+      "roles": [],
+      "hierarchyChildren": []
     }
   ],
   "composites": [],
