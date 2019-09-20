@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Threading;
 
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

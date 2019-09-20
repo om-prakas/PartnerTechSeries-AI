@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Web.Mvc;
-using HeroSolutions.AI.Demo.FaceAPI;
+using PartnerTechSeries.AI.Demo.FaceAPI;
 
 namespace OcrFaceIdPOC.Controllers
 {

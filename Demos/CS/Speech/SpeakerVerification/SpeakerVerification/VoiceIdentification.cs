@@ -4,7 +4,7 @@ using RestSharp;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

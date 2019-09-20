@@ -135,7 +135,7 @@ accountIdInput.on("keyup", function () {
 // Init
 toggleUncheckAll();
 &nbsp;
- Utils Functions
+Utils Functions
 function modifyPlayerUrl() {
     var $this = $(this);
     var value = $this.val();
@@ -245,4 +245,4 @@ function generateUrlFromParams(obj, baseUrl, el, accountId, id) {
 <img src="http://139.59.61.161/VideoIndexer/single2.jpg" alt="image" style="max-width:100%;">&nbsp;
 <h3>Congratulations! You have successfully completed Video Indexer</h3>
 <h3>Next steps</h3>
-<li><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Demos/CS/Vision/VideoIndexer/VideoIndexer_intro.md">Back to ReadMe</a></li>
+<li><a href="https://github.com/jumpstartninjatech/AI-TechSeries/blob/master/Demos/CS/Vision/VideoIndexer/VideoIndexer_intro.md">Back to ReadMe</a></li>

@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.CognitiveServices.Speech;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {
@@ -19,7 +19,8 @@ namespace HeroSolutions
                         // Replace with your own subscription key and service region (e.g., "westus").
                         // The default language is "en-us".
                         var config = SpeechConfig.FromSubscription("", "westus");
-
+                        var language = "en-IN";
+                        config.SpeechRecognitionLanguage = language;
                         // Creates a speech synthesizer using the default speaker as audio output.
                         using (var synthesizer = new SpeechSynthesizer(config))
                         {

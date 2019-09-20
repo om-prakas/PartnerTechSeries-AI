@@ -6,7 +6,7 @@ using System.Configuration;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

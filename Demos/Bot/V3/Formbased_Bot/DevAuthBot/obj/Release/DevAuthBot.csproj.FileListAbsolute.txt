@@ -1,2 +1,0 @@
-C:\Users\Siddharth Dubey\source\repos\Botv3\DevAuthBot - Copy\DevAuthBot\obj\Release\DevAuthBot.csprojAssemblyReference.cache
-C:\Users\Siddharth Dubey\source\repos\Botv3\DevAuthBot - Copy\DevAuthBot\obj\Release\DevAuthBot.csproj.CoreCompileInputs.cache

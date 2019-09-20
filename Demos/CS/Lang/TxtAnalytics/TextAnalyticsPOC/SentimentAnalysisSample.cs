@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.CognitiveServices.Language.TextAnalytics;
 using Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-using HeroSolutions.AI.Demo.Speech;
+using PartnerTechSeries.AI.Demo.Speech;
 
 namespace LanguageTranslation
 {

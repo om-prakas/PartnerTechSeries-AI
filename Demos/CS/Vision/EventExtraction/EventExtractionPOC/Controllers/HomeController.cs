@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using HeroSolutions.AI.Demo;
+using PartnerTechSeries.AI.Demo;
 using System.Web.Mvc;
 
 namespace EventExtractionPOC.Controllers

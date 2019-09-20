@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HeroSolutions.AI.HOL.FaceAPI;
+using PartnerTechSeries.AI.HOL.FaceAPI;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     public class Facade
     {

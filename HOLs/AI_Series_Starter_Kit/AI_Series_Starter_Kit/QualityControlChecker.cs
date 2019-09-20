@@ -3,7 +3,7 @@ using RestSharp;
 using System;
 using System.Configuration;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

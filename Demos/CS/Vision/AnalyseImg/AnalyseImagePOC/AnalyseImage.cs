@@ -8,7 +8,7 @@ using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
 using Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models;
 using System.Configuration;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

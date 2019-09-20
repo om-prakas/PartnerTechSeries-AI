@@ -55,4 +55,4 @@
 <img src="http://139.59.61.161/VideoIndexer/31.jpg" alt="image" style="max-width:100%;">&nbsp;
 <h3>Congratulations! You have successfully completed Challenge 1</h3>
 <h3>Next steps</h3>
-<li><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Demos/CS/Vision/VideoIndexer/VideoIndexer_challenge2.md">Challenge 2: Creating new Video Indexer</a> or <a href="">Back to ReadMe</a></li>
+<li><a href="https://github.com/jumpstartninjatech/AI-TechSeries/blob/master/Demos/CS/Vision/VideoIndexer/VideoIndexer_challenge2.md">Challenge 2: Creating new Video Indexer</a> or <a href="">Back to ReadMe</a></li>

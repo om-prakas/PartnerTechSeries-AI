@@ -5,7 +5,7 @@ using Microsoft.CognitiveServices.Speech.Audio;
 using Microsoft.CognitiveServices.Speech.Intent;
 using Newtonsoft.Json.Linq;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {
@@ -27,7 +27,8 @@ namespace HeroSolutions
                         // Once you've obtained it, replace with below with your own Language Understanding subscription key
                         // and service region (e.g., "westus").
                         var config = SpeechConfig.FromSubscription("", "westus");
-
+                        var language = "en-IN";
+                        config.SpeechRecognitionLanguage = language;
                         using (var recognizer = new IntentRecognizer(config))
                         {
                                 // Creates a Language Understanding model using the app id, and adds specific intents from your model

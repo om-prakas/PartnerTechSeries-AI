@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
-using HeroSolutions.AI.Demo.VoiceAPI;
+using PartnerTechSeries.AI.Demo.VoiceAPI;
 
 namespace SpeakerIdentification.Controllers
 {

@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Rest;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

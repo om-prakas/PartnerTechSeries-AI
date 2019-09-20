@@ -1,4 +1,4 @@
-﻿using HeroSolutions.AI.Demo.FaceAPI;
+﻿using PartnerTechSeries.AI.Demo.FaceAPI;
 using System;
 using System.Collections.Generic;
 using System.Linq;

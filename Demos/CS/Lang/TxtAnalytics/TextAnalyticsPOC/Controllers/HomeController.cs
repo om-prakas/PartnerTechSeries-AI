@@ -1,4 +1,4 @@
-﻿using HeroSolutions.AI.Demo.TextAnalytics;
+﻿using PartnerTechSeries.AI.Demo.TextAnalytics;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

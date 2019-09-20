@@ -5,7 +5,7 @@ using Microsoft.CognitiveServices.Speech.Audio;
 
 
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

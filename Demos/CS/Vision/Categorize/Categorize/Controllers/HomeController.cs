@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 using System.Threading.Tasks;
-using HeroSolutions.AI.Demo.FaceAPI;
+using PartnerTechSeries.AI.Demo.FaceAPI;
 
 namespace Categorize.Controllers
 {

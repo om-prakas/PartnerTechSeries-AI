@@ -3,7 +3,7 @@ using System.Configuration;
 using RestSharp;
 using Newtonsoft.Json.Linq;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

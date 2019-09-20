@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Translation;
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {

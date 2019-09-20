@@ -5,7 +5,7 @@ using Microsoft.CognitiveServices.Speech.Audio;
 
 
 
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {
@@ -21,6 +21,8 @@ namespace HeroSolutions
                         // Creates an instance of a speech config with specified subscription key and service region.
                         // Replace with your own subscription key and service region (e.g., "westus").
                         var config = SpeechConfig.FromSubscription("", "westus");
+                        var language = "en-IN";
+                        config.SpeechRecognitionLanguage = language;
                         using (var recognizer = new SpeechRecognizer(config))
                         {
                             // Subscribes to events.

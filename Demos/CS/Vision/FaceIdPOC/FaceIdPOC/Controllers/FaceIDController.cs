@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
-using HeroSolutions.AI.Demo.FaceAPI;
+using PartnerTechSeries.AI.Demo.FaceAPI;
 
 namespace FaceIdPOC.Controllers
 {
