@@ -1,5 +1,5 @@
-﻿using AI_SeriesHOL.HeroSolutions.AI.HOL.FaceAPI;
-using HeroSolutions;
+﻿using AI_SeriesHOL.PartnerTechSeries.AI.HOL.FaceAPI;
+using PartnerTechSeries;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

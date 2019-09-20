@@ -2,7 +2,7 @@
 using RestSharp;
 using System;
 using System.Configuration;
-namespace HeroSolutions
+namespace PartnerTechSeries
 {
     namespace AI
     {
@@ -15,7 +15,7 @@ namespace HeroSolutions
                 {
                     public string error = "";
                     //Assigning Subscription Key and Face Endpoint from web.config file
-                    private string subscriptionKey = ConfigurationManager.AppSettings["FaceIDSubscriptionKey"], FaceIDEndpoint = ConfigurationManager.AppSettings["FaceIDEndpoint"], PersonGroupId = ConfigurationManager.AppSettings["PersonGroupId"];
+                    private string subscriptionKey = ConfigurationManager.AppSettings["FaceAPIKey"], FaceIDEndpoint = ConfigurationManager.AppSettings["FaceAPIEndPoint"], PersonGroupId = ConfigurationManager.AppSettings["PersonGroupId"];
 
 
                     public string RegisterFace(byte[] imageBytes, string name)

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace AI_SeriesHOL
 {
-    namespace HeroSolutions
+    namespace PartnerTechSeries
     {
         namespace AI
         {

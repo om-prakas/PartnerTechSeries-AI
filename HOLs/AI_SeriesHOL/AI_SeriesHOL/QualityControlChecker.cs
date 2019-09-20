@@ -5,7 +5,7 @@ using System.Configuration;
 
 namespace AI_SeriesHOL
 {
-    namespace HeroSolutions
+    namespace PartnerTechSeries
     {
         namespace AI
         {
