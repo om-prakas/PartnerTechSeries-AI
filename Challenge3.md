@@ -616,38 +616,38 @@ public JsonResult VerifyAPI(string data, string random_gesture, bool CheckIn)
 <p>In the browser, navigate to User -> Register page</p>
 <ol>
     <li>Click on the toggle button</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_1.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_1-New.jpg" alt="image" style="max-width: 100%;">
     <li>Browse page will be displayed</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_2.JPG" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_2-New.JPG" alt="image" style="max-width: 100%;">
     <li>Click on the Browse button</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_3.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_3-New.jpg" alt="image" style="max-width: 100%;">
     <li>Select the image and click on Submit</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_4.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_4-New.jpg" alt="image" style="max-width: 100%;">
     <li>If all the image validations are passed your image will display in the right side</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_5.JPG" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_5-New.JPG" alt="image" style="max-width: 100%;">
     <li>Fill the details and click on submit [Note : Name field is mandatory]</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_6.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_6-New.jpg" alt="image" style="max-width: 100%;">
     <li>Success message will be displayed</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_7.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_7-New.jpg" alt="image" style="max-width: 100%;">
 </ol>
 <p>Navigate to User -> Verify page </p>
 <ol>
     <li>Click on the toggle button</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_1.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_1-New.jpg" alt="image" style="max-width: 100%;">
     <li>Click on the Browse button</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_2.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_2-New.jpg" alt="image" style="max-width: 100%;">
     <li>Select the image, click open</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_3.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_3-New.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Check-in</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_5.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_5-New.jpg" alt="image" style="max-width: 100%;">
     <li>Welcome message will be displayed along with your check-in time</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_6.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_6-New.jpg" alt="image" style="max-width: 100%;">
     <li>If check-in button was again clicked, error message will be shown</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_7.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_7-New.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Check-out button</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_8.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_8-New.jpg" alt="image" style="max-width: 100%;">
     <li>Good Bye message will be displayed along with your check out time</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_9.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_9-New.jpg" alt="image" style="max-width: 100%;">
 </ol>
 <h3>Invoking Audit Log</h3>
 <ol>
