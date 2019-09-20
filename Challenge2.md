@@ -15,31 +15,31 @@
       <li>To start with, have to update the API Prediction Key, Endpoint, Project ID and Iteration name in Web.Config</li>
       <li>Train your model in 'customvision.ai'</li>
       <li>After training your model publish it</li>
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/custom1.jpg" alt="image" style="max-width: 100%;">
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/custom2.jpg" alt="image" style="max-width: 100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/custom1.jpg" alt="image" style="max-width: 100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/custom2.jpg" alt="image" style="max-width: 100%;">
       <li>Click on Prediction URL</li>
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/custom3.jpg" alt="image" style="max-width: 100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/custom3.jpg" alt="image" style="max-width: 100%;">
       <li>Grab your endpoint, project-id and iteration name. [Example endpoint : 'https://southeastasia.api.cognitive.microsoft.com']</li>
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/custom6.jpg" alt="image" style="max-width: 100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/custom6.jpg" alt="image" style="max-width: 100%;">
       <li>Follow the picture shown below to navigate to the Web.Config file</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
       <li>Copy and paste the Endpoint in 'GestureAPICall', Prediction Key in 'GestureKey' for invoking Gesture Management API.</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/12.PNG" alt="image" style="max-width: 100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/12.PNG" alt="image" style="max-width: 100%;">
       <li>Copy your Project ID</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/custom7.jpg" alt="image" style="max-width:100%;">&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/custom8.jpg" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/custom7.jpg" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/custom8.jpg" alt="image" style="max-width:100%;">&nbsp;
       <li>Now paste the values for project-id in GestureProjectID and iteration in GestureIteration [example iteration name is 'Iteration1']</li>
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/new.PNG" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/new.PNG" alt="image" style="max-width:100%;">&nbsp;
     </strong>
 </ol>
 <h3>Getting started with coding - here we will implement the GestureHandler.cs file</h3>
 <li>Follow the screenshot shown below to navigate to the GestureHandler.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/GestureHandler.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/GestureHandler.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 <strong>
 <li>Copy and Paste the code given below in 'GestureHandler.cs', (i.e) below the comment 'Paste the GestureHandler Class code here...'</li>
 <li>Follow the picture shown below to navigate to the GestureHandler.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/13.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/13.PNG" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -141,12 +141,12 @@ public class GestureHandler
 <h2>Azure SQL Server Table Updates</h2>
 <h3>Code snippet demonstrating the implementation of StorageHandler.cs file</h3>
 <li>Follow the screenshot shown below to navigate to the StorageHandler.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/StorageHandler.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/StorageHandler.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 <strong>
 <li>Copy and Paste the code given below in 'StorageHandler.cs', (i.e) below the comment 'Paste the gesture_management Class code here...'</li>
 <li>Follow the screenshot shown below to navigate to the gesture_management Class in the StorageHandler.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/1.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/1.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -172,7 +172,7 @@ public class gesture_management
 <strong>
 <li>Copy and Paste the code given below in 'StorageHandler.cs', (i.e) below the comment 'Paste the GestureTable Class code here...'</li>
 <li>Follow the picture shown below to navigate to the GestureTable Class in the StorageHandler.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/2.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/2.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -366,7 +366,7 @@ class GestureTable
 <ol>
 <strong>
 <li>Follow the screenshot shown below to navigate to the RandomGestureShow Function in the Facade.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/3.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/3.png" alt="image" style="max-width:100%;">&nbsp;
 <li>Copy and Paste the code given below in 'Facade.cs', (i.e) below the comment 'Paste the RandomGestureShow Function Code here...'</li>
 <blockquote>
 <pre>
@@ -397,7 +397,7 @@ public static List&lt;List&lt;string&gt;&gt; RandomGestureShow()
 <strong>
 <li>Copy and Paste the code given below in 'Facade.cs', (i.e) below the comment 'Paste the Admin_GestureShow Function Code here...'</li>
 <li>Follow the screenshot shown below to navigate to the Admin_GestureShow Function in the Facade.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/4.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/4.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -416,7 +416,7 @@ public static List&lt;gesture_management&gt; Admin_GestureShow()
 <strong>
 <li>Copy and Paste the code given below in 'Facade.cs', (i.e) below the comment 'Paste the Admin_GestureEdit Function Code here...'</li>
 <li>Follow the screenshot shown below to navigate to the Admin_GestureEdit Function in the Facade.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/5.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/5.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -435,7 +435,7 @@ public static gesture_management Admin_GestureEdit(string id)
 <strong>
 <li>Copy and Paste the code given below in 'Facade.cs', (i.e) below the comment 'Paste the Admin_GestureUpdate Function Code here...'</li>
 <li>Follow the screenshot shown below to navigate to the Admin_GestureUpdate Function in the Facade.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/6.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/6.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -454,7 +454,7 @@ public static bool Admin_GestureUpdate(string id, String isactive)
 <strong>
 <li>Copy and Paste the code given below in 'Facade.cs', (i.e) below the comment 'Paste the Admin_GestureAdd Function Code here...'</li>
 <li>Follow the picture shown below to navigate to the Admin_GestureAdd Function in the Facade.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/7.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/7.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -479,7 +479,7 @@ public static bool Admin_GestureAdd(string gesture_name, string thumbnail_url, s
 <strong>
 <li>Copy and Paste the code given below in 'HomeController.cs', (i.e) below the comment 'Paste the RandomGestureAPI Function code here...'</li>
 <li>Follow the screenshot shown below to navigate to the RandomGestureAPI Function in the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/8.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/8.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -499,7 +499,7 @@ public JsonResult RandomGestureAPI()
 <strong>
 <li>Copy and Paste the code given below in 'HomeController.cs', (i.e) below the comment 'Paste the GestureManagement_FetchByID Function code here...'</li>
 <li>Follow the screenshot shown below to navigate to the GestureManagement_FetchByID Function in the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/9.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/9.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -519,7 +519,7 @@ public JsonResult GestureManagement_FetchByID(string data)
 <strong>
 <li>Copy and Paste the code given below in 'HomeController.cs', (i.e) below the comment 'Paste the 'GestureManagement_FetchByIsActive' Function code here...'</li>
 <li>Follow the screenshot shown below to navigate to the GestureManagement_FetchByIsActive Function in the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/10.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/10.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -540,7 +540,7 @@ public JsonResult GestureManagement_FetchByIsActive(string data, string value)
 <strong>
 <li>Copy and Paste the code given below in 'HomeController.cs', (i.e) below the comment 'Paste the 'GestureManagement_InsertByIsID' Function code here...'</li>
 <li>Follow the screenshot shown below to navigate to the GestureManagement_InsertByIsID Function in the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/11.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/11.png" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
@@ -560,7 +560,7 @@ public JsonResult GestureManagement_InsertByIsID(string name, string url, string
 <h3>Code snippet that needs to be replaced in HomeController for Gesture Management</h3>
 <p>Replace the following code in gesture_management ActionResult of 'HomeController.cs', (i.e) below the comment 'Admin - Gesture Management Page' [Note : Replace that whole actionresult code]</p>
 <li>Follow the screenshot shown below to navigate to the gesture_management ActionResult Function in the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/Class/12.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/12.png" alt="image" style="max-width:100%;">&nbsp;
 <strong>
 <blockquote>
   <pre>
@@ -580,36 +580,36 @@ public ActionResult gesture_management()
 <ol>
 <strong>
 <li>Open gesture_management.cshtml</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/uncomment/1.png" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/uncomment/1.png" style="max-width:100%;">&nbsp;
 <li>Select the code from line number 291</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/uncomment/2.png" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/uncomment/2.png" style="max-width:100%;">&nbsp;
 <li>Select the code till line number 336</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/uncomment/3.png" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/uncomment/3.png" style="max-width:100%;">&nbsp;
 <li>Click on the uncomment button</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/uncomment/4.png" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/uncomment/4.png" style="max-width:100%;">&nbsp;
 <h3>Click on the Run button to see the output in the admin portal</h3>&nbsp;
 <li>Admin Gesture Management with entries</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/1.JPG" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/1.JPG" alt="image" style="max-width: 100%;">&nbsp;
 <li>Click the button to add the new Gesture </li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/2.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/2.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Modal box for Adding a new Gesture</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/3.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/3.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Provide the relavant information to add the new Gesture</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/4.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/4.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Added a Gesture</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/5.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/5.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Click on the edit button to edit a Gesture</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/6.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/6.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>while clicking the edit button the relevant details will be displayed in the modal box</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/7.JPG" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/7.JPG" alt="image" style="max-width: 100%;">&nbsp;
 <li>To Disable the Gesture, click on the button shown below</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/8.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/8.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Disabled button</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/9.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/9.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>If you want to save the changes, click on the Update button to update the Gesture details</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/10.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/10.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Changes made are shown below</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Challenge2/output/11.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/11.jpg" alt="image" style="max-width: 100%;">&nbsp;
 </strong>
 <h3>Congratulations! You have successfully completed Challenge 2</h3>
-<h3>The next session is<a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge3.md"> Challenge 3</a></h3>
+<h3>The next session is<a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge3.md"> Challenge 3</a></h3>

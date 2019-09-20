@@ -232,3 +232,35 @@ G:\ASP.Net\demo-14may2019\Demos\EventExtractionPOC\EventExtractionPOC\obj\Debug\
 G:\ASP.Net\demo-14may2019\Demos\EventExtractionPOC\EventExtractionPOC\obj\Debug\EventExtractionPOC.csproj.CopyComplete
 G:\ASP.Net\demo-14may2019\Demos\EventExtractionPOC\EventExtractionPOC\obj\Debug\EventExtractionPOC.dll
 G:\ASP.Net\demo-14may2019\Demos\EventExtractionPOC\EventExtractionPOC\obj\Debug\EventExtractionPOC.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\EventExtractionPOC.dll.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\EventExtractionPOC.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\EventExtractionPOC.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\Antlr3.Runtime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\Newtonsoft.Json.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\RestSharp.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Helpers.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Mvc.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Optimization.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.WebPages.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.WebPages.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\WebGrease.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\RestSharp.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Helpers.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Mvc.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Optimization.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.WebPages.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\System.Web.WebPages.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\Newtonsoft.Json.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\Antlr3.Runtime.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\obj\Debug\EventExtractionPOC.csprojAssemblyReference.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\obj\Debug\EventExtractionPOC.csproj.CoreCompileInputs.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\obj\Debug\EventExtractionPOC.csproj.CopyComplete
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\obj\Debug\EventExtractionPOC.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\EventExtraction\EventExtractionPOC\obj\Debug\EventExtractionPOC.pdb

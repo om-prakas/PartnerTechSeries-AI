@@ -14,69 +14,69 @@
 <ol>
   <strong>
     <li>Sign-in to Azure Portal by typing "portal.azure.com" in browser, enter your username</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_1.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_1.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>Enter your Password</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>Click on create a resource</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_3.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_3.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>In the search box type 'cognitive service'</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>Click on create</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_5.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_5.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>Enter name and select location, pricing tier and resource group</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>Click on Overview tab</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_7.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_7.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>Copy the endpoint</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_8.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_8.jpg" alt="image" style="max-width: 100%;">&nbsp;
     <li>Click on Keys tab</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_9.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_9.jpg" alt="image" style="max-width: 100%;">
     <li>Copy the Keys</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/computervisionAPI_create/portal_10.jpg" alt="image" style="max-width: 100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/computervisionAPI_create/portal_10.jpg" alt="image" style="max-width: 100%;">&nbsp;
   </strong></ol>
   <h3>Updating the Web.config</h3>
 <ol>
   <strong>
       <li>To start with, update the API Key and Endpoint in Web.Config</li>
       <li>Follow the picture shown below to navigate the Web.Config file</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
       <li>Paste the Endpoint in 'OCREndpoint' and Key in 'OCRSubscriptionKey'</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/OCR/4.PNG" alt="image" style="max-width: 100%;"></strong>
+      <img src="http://139.59.61.161/PartnerTechSeries2019/OCR/4.PNG" alt="image" style="max-width: 100%;"></strong>
 </ol>
 <h3>Importing the LUIS Model</h3>
 <ol>
     <strong>
-        <li>Download the LUIS Json file from <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/HOLs/LegalDocumentLUIS.json">GitHub</a></li>
+        <li>Download the LUIS Json file from <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/LegalDocumentLUIS.json">GitHub</a></li>
         <li>Login to Luis.ai</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/LuisImages/1.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/1.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Enter your username</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/LuisImages/2.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/2.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Enter your password</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/LuisImages/3.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/3.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Click on Import app</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/LuisImages/4.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/4.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Select the Json file</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/LuisImages/5.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/5.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/LuisImages/6_hackathon.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Enter name</li>&nbsp;
         <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/LuisImages/7_hackathon.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Click on Train button</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/custom/LUIS2.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/custom/LUIS2.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>After training is completed, click on Publish button</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/custom/LUIS3.jpg" alt="image" style="max-width: 100%;">
-        <img src="http://139.59.61.161/MSWorkshop2019/custom/LUIS1.JPG" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/custom/LUIS3.jpg" alt="image" style="max-width: 100%;">
+        <img src="http://139.59.61.161/PartnerTechSeries2019/custom/LUIS1.JPG" alt="image" style="max-width: 100%;">&nbsp;
         <li>Click on Manage</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/LuisImages/8.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/8.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Copy the Application ID</li>&nbsp;
         <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/LuisImages/9_hackathon.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Copy Key and Endpoint</li>&nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/LuisImages/10.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/10.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Paste the Endpoint in 'LUIS_EndPoint', Application ID in 'LUIS_AppID' and Key 'LUIS_Key' in Web.Config [NOTE : Paste the endpoint only till 'v2.0/apps/' (example endpoint : "https://westus2.api.cognitive.microsoft.com/luis/v2.0/apps/")]</li>
     </strong>
 </ol>
 <h3>Getting started with coding - here we will implement the DocumentVerificationHandler.cs file</h3>
 <li>Follow the screenshot shown below to navigate to the DocumentVerificationHandler.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/DocumentVerificationHandler.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/DocumentVerificationHandler.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 <strong>
 <li>Copy and Paste the code given below in 'DocumentVerificationHandler.cs', (i.e) below the comment 'Paste the DocumentVerificationHandler Class code here...'</li>
@@ -250,7 +250,7 @@ public class DocumentVerificationHandler
 </strong>
 </ol>
 <li>Follow the screenshot shown below to navigate to the Facade.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/Facade.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/Facade.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 	<strong>
 		<li>Copy and Paste the code given below in the  'Facade.cs', (i.e) below the comment 'Paste the DocumentVerificationHandler Function Code here...'</li>
@@ -269,7 +269,7 @@ public async Task&lt;DocumentVerificationHandler&gt; DocumentVerificationHandler
 	</strong>
 </ol>
 <li>Follow the screenshot shown below to navigate to the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 	<strong>
 		<li>Copy and Paste the code given below in the 'HomeController.cs', (i.e) below the comment 'Paste the DocumentVerification Function code here...'</li>
@@ -294,9 +294,9 @@ public async Task&lt;JsonResult&gt; DocumentVerification(string data)
 	</strong>
 </ol>
 <li>Follow the screenshot shown below to Run the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Click on the Run button to run the solution and get the output</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Run.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Run.PNG" alt="image" style="max-width:100%;">&nbsp;
 <strong>
 <p>STEP 1 : Now, lets test the image using Azure API. </p>
 <p>STEP 2 : If you choose to take the picture by live streaming, make sure you use the correct image. If the Image does not contain any text, it will throw the 'Fail' response.</p>
@@ -306,14 +306,14 @@ public async Task&lt;JsonResult&gt; DocumentVerification(string data)
 <h2>Sample Outputs [Navigate to 'Legal Document Verification' Page]</h2>
 <h3>Browse Button for selecting images from the Local Machine</h3>
 <li>Turn off the Live Streamming and select the Browse Button</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_2.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_2.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Open the Right image from the folder</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/OCR/2.png" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/OCR/2.png" alt="image" style="max-width:100%;">&nbsp;
 <li>Below is the screenshot of the Right image</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/OCR/3.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/OCR/3.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Select the wrong file type</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_7.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_7.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Error page if you select a wrong file type</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_8.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_8.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h3>Congratulations! You have successfully completed Challenge 5</h3>
-<h3>The next session is <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge6.md">Challenge 6</a></h3>
+<h3>The next session is <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge6.md">Challenge 6</a></h3>

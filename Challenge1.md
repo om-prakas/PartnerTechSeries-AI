@@ -2,65 +2,65 @@
 <h1>Challenge 1 – Image Validation using Azure Computer Vision</h1>
 <p>In Challenge 1, we are going to explore how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connect with Azure SQL Server Database and register a person's face to be used later during the face identification.</p>
 <h2>Getting Started</h2>
-<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/tree/master/HOLs/AI_Series_Starter_Kit">Git Repo</a></p>
+<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/tree/master/HOLs/AI_Series_Starter_Kit">Git Repo</a></p>
 <h3>Prerequisites</h3>
     <li>Kindly ensure that your Visual Studio and SQL Server Management Studio are working fine.</li>
     <li>Open the AI Series Starter Kit application.</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/1.PNG" alt="image" style="max-width:100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/1.PNG" alt="image" style="max-width:100%;">
     <li>In the solution explorer [View -> Solution Explorer]</li>&nbsp; 
-    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/2.PNG" alt="image" style="max-width:100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/2.PNG" alt="image" style="max-width:100%;">
     <li>Right click on the solution name and select Build</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/3.PNG" alt="image" style="max-width:100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/3.PNG" alt="image" style="max-width:100%;">
     <li>Make sure there are no errors once the build is complete.</li>
     <li>Now click on the Run button and see the application's output in the browser</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/4.PNG" alt="image" style="max-width:100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/4.PNG" alt="image" style="max-width:100%;">
     <li>Following are the output screens of the application. Since the database doesn't contain any entries, all the screen will be empty.</li>
     <li>Home page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/main.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/main.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigating to Admin page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_1.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_1.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Admin Index page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigating to Image Validation page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Image Validation page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/image_validation.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_validation.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigating to Gesture Management page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index_2.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index_2.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Gesture Management page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/gesture_management.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/gesture_management.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Audit Log page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index_3.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index_3.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Audit Log page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Admin/audit_log.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/audit_log.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to User page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/User/user_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/User/user_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>User Index page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/User/User_Index.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/User/User_Index.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Register page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/User/User_Index_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/User/User_Index_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Register page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/User/Register_Page.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/User/Register_Page.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Verify page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/User/User_Index_2.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/User/User_Index_2.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Verify page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/User/Verify_Page.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/User/Verify_Page.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Legal Document Verification page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Document_Verification/doc.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Document_Verification/doc.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Legal Document Verification page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Document_Verification/doc_1.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Document_Verification/doc_1.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Quality Control Check page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/QCC_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/QCC_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Quality Control Check page</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/QCC_2.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/QCC_2.PNG" alt="image" style="max-width:100%;">&nbsp;
     <h2>Installed Nuget Packages</h2>
     <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>Below is the sample installation procedure</p>
     <li>Installing the 'RestSharp' Nuget Package</li>
     <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/5.PNG" alt="image" style="max-width:100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/5.PNG" alt="image" style="max-width:100%;">
     <li>Click on the Browse tab, type 'RestSharp' and press Enter. From the search result set, select the specified package & project and click on Install</li>&nbsp;
-    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h2>Code Summary</h2>
 <p>In this application we have seven C# classes and each class is meant to handle a specific module and functionality.The Facade Class is used as the intermediate class between these seven classes and the HomeController. The HomeController manages all the views and the C# classes. </p>
 <h2>Getting Started with the coding part - Following are the guidelines to work on the Computer Vision API</h2>
@@ -82,7 +82,7 @@ public class StorageHandler
             </code>
         </pre>
    </blockquote></strong>
-   <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/8.PNG" alt="image" style="max-width:100%;">
+   <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/8.PNG" alt="image" style="max-width:100%;">
    &nbsp;
 <p>The below code snippet invokes the SaveToFile function of StorageHandler Class from Facade Class.</p><strong>
    <li>Paste the code given below in 'Facade.cs', (i.e) below the comment 'Paste the storetoserver Function Code here...'</li>
@@ -98,31 +98,31 @@ public static byte[] storetoserver(string base64data)
 </blockquote>
 </strong>
 </ol>
-  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/9.PNG" alt="image" style="max-width:100%;">&nbsp;
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/9.PNG" alt="image" style="max-width:100%;">&nbsp;
 <p>Lets move on to the Face API</p>
 <h3>Creating Face API Key</h3>
 <ol>
   <strong>
     <li>Sign-in to Azure Portal by typing "portal.azure.com" in browser, enter your username</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_1.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_1.jpg" alt="image" style="max-width: 100%;">
     <li>Enter your Password</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_2.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_2.jpg" alt="image" style="max-width: 100%;">
     <li>Click on create a resource</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_3.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_3.jpg" alt="image" style="max-width: 100%;">
     <li>In the search box type 'face'</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_4.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_4.jpg" alt="image" style="max-width: 100%;">
     <li>Click on create</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_5.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_5.jpg" alt="image" style="max-width: 100%;">
     <li>Enter name and select location, pricing tier and resource group</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_6.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_6.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Overview tab</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_7.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_7.jpg" alt="image" style="max-width: 100%;">
     <li>Copy the endpoint</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_8.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_8.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Keys tab</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_9.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_9.jpg" alt="image" style="max-width: 100%;">
     <li>Copy the Keys</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/face_computer_portal/faceAPI_create/portal_10.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_10.jpg" alt="image" style="max-width: 100%;">
   </strong></ol>
 <h3>Invoking the Face API</h3>
 <ol>
@@ -132,7 +132,7 @@ public static byte[] storetoserver(string base64data)
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
       <li>NOTE : Paste the endpoint only till '.com', example : 'https://southeastasia.api.cognitive.microsoft.com'</li>
       &nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/webconfig.PNG" alt="image" style="max-width: 100%;"></strong>
+        <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/webconfig.PNG" alt="image" style="max-width: 100%;"></strong>
         &nbsp;
 <p>The below code snippet calls the Face API and checks for 4 attributes - Face availability, Multiple Face check, Sunglasses check and allowed Emotions.</p>
 <strong>
@@ -257,7 +257,7 @@ public class ImageValidationHandler
 </pre>
 </blockquote>
 </strong>
- <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/10.PNG" alt="image" style="max-width:100%;">
+ <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/10.PNG" alt="image" style="max-width:100%;">
 <h3>Invoke the Validate() function of ImageValidationHandler Class from Facade</h3>
    <strong>
    <li>Paste the code given below in 'Facade.cs', (i.e) below the comment 'Paste the User Image Validation Function code here...'</li>
@@ -314,7 +314,7 @@ public class ImageValidationHandler
    </pre>
  </blockquote>
 </strong>
-  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/11.PNG" alt="image" style="max-width:100%;">
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/11.PNG" alt="image" style="max-width:100%;">
 </ol>
   <h3>Till this you can run the solution and get the output</h3>
     <p><b>STEP 1 :</b> Make sure you take the picture with a face to pass the face availability. Also take a picture without showing the face in the camera to get the error message 'Face not found'</p>
@@ -323,46 +323,46 @@ public class ImageValidationHandler
     <p><b>STEP 4 :</b> Make sure you do not show emotions such as anger, sadness and surprise while taking the picture to pass the allowed emotions check. Also take a picture with the above specified emotions to get the error message 'Your expression must be Neutral'</p>
   <h2>Sample Outputs</h2>
   <li>Face availability test case</li>
-  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/1.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/1.PNG" alt="image" style="max-width: 100%;">
   <li>Multiple face test case</li>
-  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/2.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/2.PNG" alt="image" style="max-width: 100%;">
   <li>Sunglasses test case</li>
-  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/3.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/3.PNG" alt="image" style="max-width: 100%;">
   <li>Reading glasses are allowed</li>
-  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/4.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/4.PNG" alt="image" style="max-width: 100%;">
   <li>Allowed Emotions test case - Anger, Sad, Surprised emotions are not allowed</li>
-  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/5.PNG" alt="image" style="max-width: 100%;">
-  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/6.PNG" alt="image" style="max-width: 100%;">
-  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/7.PNG" alt="image" style="max-width: 100%;">&nbsp;
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/5.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/6.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/7.PNG" alt="image" style="max-width: 100%;">&nbsp;
 <h3>Azure SQL Server Database Connectivity</h3>
 <li>Open SQL Server Management Studio</li>
 <li>To connect with the Azure SQL Server, you have to provide Server name, Login and Password details.</li>
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/1.jpg" style="max-width:100%;">
-<p>Download the script file from the GitHub and run the <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/HOLs/HOL_Script.sql">Script File</a> </p> 
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/1.jpg" style="max-width:100%;">
+<p>Download the script file from the GitHub and run the <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/HOL_Script.sql">Script File</a> </p> 
 <h2>Screens to demonstrate how to run the script file</h2>
 <li>Open the script file from the path where you have saved the downloaded GIT script file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/2.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/2.jpg" style="max-width:100%;">&nbsp;
 <li>Select the appropriate script file, and click on open</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/3.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/3.jpg" style="max-width:100%;">&nbsp;
 <li>Run the script file to create all the tables(usertable, imagevalidation, gesture, auditlog, verifytime)</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/4.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/4.jpg" style="max-width:100%;">&nbsp;
 <li>Click the Execute button to run the script</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/5.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/5.jpg" style="max-width:100%;">&nbsp;
 <li>Output message</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/6.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/6.jpg" style="max-width:100%;">&nbsp;
 <li>Till now we have created all the tables, just click the database to visualize the tables </li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/7.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/7.jpg" style="max-width:100%;">&nbsp;
 <li>Click your Database</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/8.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/8.jpg" style="max-width:100%;">&nbsp;
 <li>Click tables</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/9.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/9.jpg" style="max-width:100%;">&nbsp;
 <li>List of all the tables</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/DB_Creation/10.jpg" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/10.jpg" style="max-width:100%;">&nbsp;
 <h3>Azure SQL Server Connectivity through Azure Portal</h3>
 <li>Sign-in to Azure Portal by typing "portal.azure.com" in browser, enter your username</li>
-<img src="http://139.59.61.161/MSWorkshop2019/sql/sql0c.JPG" alt="image" style="max-width: 100%;">
+<img src="http://139.59.61.161/PartnerTechSeries2019/sql/sql0c.JPG" alt="image" style="max-width: 100%;">
 <li>Enter your Password</li>
-<img src="http://139.59.61.161/MSWorkshop2019/sql/sql0.1c.JPG" alt="image" style="max-width: 100%;">
+<img src="http://139.59.61.161/PartnerTechSeries2019/sql/sql0.1c.JPG" alt="image" style="max-width: 100%;">
 <li>Click on SQL databases tab in the left pane</li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql1.jpg" alt="image" style="max-width: 100%;">
 <li>Select your particular database</li>
@@ -371,7 +371,7 @@ public class ImageValidationHandler
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql3.jpg" alt="image" style="max-width: 100%;">
 <li>Specify your database password</li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql5.jpg" alt="image" style="max-width: 100%;">
-<li>Copy all the queries from <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/HOLs/HOL_Script.sql">sql script file</a></li>
+<li>Copy all the queries from <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/HOL_Script.sql">sql script file</a></li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql4.jpg" alt="image" style="max-width: 100%;">   
 <li>Paste all the queries in the editor pane and click on Run button</li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql6_hackathon.jpg" alt="image" style="max-width: 100%;">
@@ -964,27 +964,27 @@ public ActionResult image_validation()
 <ol>
 <strong>
 <li>Open image_validation.cshtml</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/UnComment_ImageValidation/View_Comment1.PNG" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment1.PNG" style="max-width:100%;">&nbsp;
 <li>Select the code from line number 221</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/UnComment_ImageValidation/View_Comment2.PNG" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment2.PNG" style="max-width:100%;">&nbsp;
 <li>Select the code till line number 271</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/UnComment_ImageValidation/View_Comment3.PNG" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment3.PNG" style="max-width:100%;">&nbsp;
 <li>Click on the uncomment button</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/UnComment_ImageValidation/View_Comment4.png" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment4.png" style="max-width:100%;">&nbsp;
 </ol>
 <h3>Just click the Run button and see the output in the admin side</h3>&nbsp;
 <li>Admin Image Validation with entries</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Admin/image_1.JPG" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_1.JPG" alt="image" style="max-width: 100%;">&nbsp;
 <li>Selecting the Edit Button</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Admin/image_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Getting modal box</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Admin/image_3.JPG" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_3.JPG" alt="image" style="max-width: 100%;">&nbsp;
 <li>Selecting Enable button</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Admin/image_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
 <li>Disabled the enable button by clicking</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Admin/image_5.JPG" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_5.JPG" alt="image" style="max-width: 100%;">&nbsp;
 <li>Updating the table</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Admin/image_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
 </strong>
 <h3>Congratulations! You have successfully completed Challenge 1</h3>
-<h3>The next session is<a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge2.md"> Challenge 2</a></h3>
+<h3>The next session is<a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge2.md"> Challenge 2</a></h3>

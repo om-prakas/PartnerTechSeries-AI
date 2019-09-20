@@ -11,22 +11,22 @@
   <ol>
     <strong>
       <li>Navigate to <a href="https://southeastasia.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395244">Developer Portal</a>, click on PersonGroup tab on the left pane</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/face_group_id/face_1.jpg" alt="image" style="max-width: 100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_1.jpg" alt="image" style="max-width: 100%;">&nbsp;
       <li>Click on create tab on the left pane</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/face_group_id/face_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
       <li>Select the region</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/face_group_id/face_3.jpg" alt="image" style="max-width: 100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_3.jpg" alt="image" style="max-width: 100%;">&nbsp;
       <li>Enter any id in PersonGroupId, specify the face api key created in Azure portal here in 'Ocp-Apim-Subscription-Key'</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/face_group_id/face_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
       <li>In the Json specify the name and recognitionModel [Note : recognitionModel value must be 'recognition_01']</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/face_group_id/face_5.jpg" alt="image" style="max-width: 100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_5.jpg" alt="image" style="max-width: 100%;">&nbsp;
       <li>Response will be displayed</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/face_group_id/face_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
       <li>To start with, update the GroupID in Web.Config</li>&nbsp;
       <li>Open Web.Config file</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
       <li>Enter the value for 'PersonGroupId'.</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/Register/webconfig.PNG" alt="image" style="max-width:100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Register/webconfig.PNG" alt="image" style="max-width:100%;">
   </strong>
 </ol>
 <h3>Design Changes</h3>
@@ -35,9 +35,9 @@
 <ol>
 <strong>
    <li>Open register.cshtml</li>&nbsp;
-   <img src="http://139.59.61.161/MSWorkshop2019/Register/UnComment1.PNG" style="max-width:100%;">&nbsp;
+   <img src="http://139.59.61.161/PartnerTechSeries2019/Register/UnComment1.PNG" style="max-width:100%;">&nbsp;
    <li>Select the code from line number 211 to 213 and click on the uncomment button</li>&nbsp;
-   <img src="http://139.59.61.161/MSWorkshop2019/Register/UnComment2.png" style="max-width:100%;">
+   <img src="http://139.59.61.161/PartnerTechSeries2019/Register/UnComment2.png" style="max-width:100%;">
 </strong>
 </ol>
 <h2>Invoking the Register API</h2>
@@ -616,38 +616,38 @@ public JsonResult VerifyAPI(string data, string random_gesture, bool CheckIn)
 <p>In the browser, navigate to User -> Register page</p>
 <ol>
     <li>Click on the toggle button</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Register/reg_1.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_1.jpg" alt="image" style="max-width: 100%;">
     <li>Browse page will be displayed</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Register/reg_2.JPG" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_2.JPG" alt="image" style="max-width: 100%;">
     <li>Click on the Browse button</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Register/reg_3.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_3.jpg" alt="image" style="max-width: 100%;">
     <li>Select the image and click on Submit</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Register/reg_4.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_4.jpg" alt="image" style="max-width: 100%;">
     <li>If all the image validations are passed your image will display in the right side</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Register/reg_5.JPG" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_5.JPG" alt="image" style="max-width: 100%;">
     <li>Fill the details and click on submit [Note : Name field is mandatory]</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Register/reg_6.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_6.jpg" alt="image" style="max-width: 100%;">
     <li>Success message will be displayed</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Register/reg_7.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/reg_7.jpg" alt="image" style="max-width: 100%;">
 </ol>
 <p>Navigate to User -> Verify page </p>
 <ol>
     <li>Click on the toggle button</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_1.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_1.jpg" alt="image" style="max-width: 100%;">
     <li>Click on the Browse button</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_2.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_2.jpg" alt="image" style="max-width: 100%;">
     <li>Select the image, click open</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_3.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_3.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Check-in</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_5.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_5.jpg" alt="image" style="max-width: 100%;">
     <li>Welcome message will be displayed along with your check-in time</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_6.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_6.jpg" alt="image" style="max-width: 100%;">
     <li>If check-in button was again clicked, error message will be shown</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_7.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_7.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Check-out button</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_8.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_8.jpg" alt="image" style="max-width: 100%;">
     <li>Good Bye message will be displayed along with your check out time</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Verify/verify_9.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Verify/verify_9.jpg" alt="image" style="max-width: 100%;">
 </ol>
 <h3>Invoking Audit Log</h3>
 <ol>
@@ -683,14 +683,14 @@ public static List&lt;audit_log&gt; Admin_AuditLogShow()
 </ol>
 <h3>Invoking Audit Log design changes</h3>
 <li>Click on auditlog.cshtml</li>
-<img src="http://139.59.61.161/MSWorkshop2019/Audit_Log/1.PNG" alt="image" style="max-width: 100%;">
+<img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/1.PNG" alt="image" style="max-width: 100%;">
 <li>Uncomment the code from line 220</li>
-<img src="http://139.59.61.161/MSWorkshop2019/Audit_Log/2.PNG" alt="image" style="max-width: 100%;">
+<img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/2.PNG" alt="image" style="max-width: 100%;">
 <li>Uncomment the code till line 264</li>
-<img src="http://139.59.61.161/MSWorkshop2019/Audit_Log/3.PNG" alt="image" style="max-width: 100%;">
+<img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/3.PNG" alt="image" style="max-width: 100%;">
 <li>Click on the uncomment button</li>
-<img src="http://139.59.61.161/MSWorkshop2019/Audit_Log/4.png" alt="image" style="max-width: 100%;">
+<img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/4.png" alt="image" style="max-width: 100%;">
 <p>Now you can run and check the Audit Log outputs</p>
-    <img src="http://139.59.61.161/MSWorkshop2019/Audit_Log/auditlog.JPG" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/auditlog.JPG" alt="image" style="max-width: 100%;">
 <h3>Congratulations! You have successfully completed Challenge 3</h3>
-<h3>The next session is<a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge4.md"> Challenge 4</a></h3>
+<h3>The next session is<a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge4.md"> Challenge 4</a></h3>

@@ -14,13 +14,13 @@
       <li>To start with, update the API Key and Endpoint in Web.Config</li>
       <li>Train your model and publish it in 'customvision.ai' [NOTE : Check Challenge 2 for procedures]</li>
       <li>Follow the screenshot shown below to navigate to the Web.Config file</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
       <li>Copy and paste the Endpoint in 'QualityEndPoint', Prediction Key in 'QualityPredictionKey', Project-id in 'QualityProjectID', Iteration name in 'QualityIterationID' in both the model files</li>&nbsp;
-      <img src="http://139.59.61.161/MSWorkshop2019/custom/webconfig.PNG" alt="image" style="max-width: 100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/custom/webconfig.PNG" alt="image" style="max-width: 100%;">
   </strong>
 <h3>Getting started with coding - here we will implement the QualityControlChecker.cs file</h3>
 <li>Follow the screenshot shown below to navigate to the QualityControlChecker.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/QualityControlChecker.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/QualityControlChecker.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 <strong>
 <li>Copy and Paste the code given below in 'QualityControlChecker.cs', (i.e) below the comment 'Paste the QualityControlChecker Class code here...'</li>
@@ -180,7 +180,7 @@ public class QualityControlChecker
 	</strong>
 </ol>
 <li>Follow the screenshot shown below to navigate to the Facade.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/Facade.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/Facade.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 	<strong>
 		<li>Copy and Paste the code given below in the 'Facade.cs', (i.e) below the comment 'Paste the QualityControlChecker Function Code here...'</li>
@@ -202,7 +202,7 @@ public static QualityControlChecker QualityControlChecker(string base64, bool fl
 	</strong>
 </ol>
 <li>Follow the screenshot shown below to navigate to the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
 <ol>
 	<strong>
 		<li>Copy and Paste the code given below in the 'HomeController.cs', (i.e) below the comment 'Paste the QualityChecking Function code here...'</li>
@@ -236,9 +236,9 @@ public JsonResult QualityChecking(String data, bool flag, string check)
 	</strong>
 </ol>
 <li>Follow The screenshot shown below is to Run the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Click on the Run button to run the solution and get the output</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Run.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Run.PNG" alt="image" style="max-width:100%;">&nbsp;
 <strong>
 	<p>STEP 1 : Now, let's test the Quality of the product. We have two model files. Select any one of the models(Model 1 / Model 2) by selecting the appropriate Radio Button.</p>
 <p>STEP 2 : If you decide to take the picture by live streaming, make sure you use the correct product. If the Image does not contain any related product details, it will throw the 'Fail' response.</p>
@@ -248,36 +248,36 @@ public JsonResult QualityChecking(String data, bool flag, string check)
 <h2>Model 1 Sample Outputs</h2>
 <h3>Browse Button for selecting images from the Local Machine</h3>
 <li>Selecting the Model 1 Check Box</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_1.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_1.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Turn off the Live Streamming and select the Browse Button</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_2.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_2.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Open the wrong product image from a folder</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_3.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_3.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Below is the picture of a wrong product</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_4.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_4.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Open the Right product image from the folder</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_5.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_5.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Below is the picture of the Right product</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_6.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_6.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Select the wrong file type</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_7.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_7.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Below is the Error page which you will get after selecting the wrong file type</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_8.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_8.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h3>URL images</h3>
 <li>Error page for Empty URL</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_9.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_9.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Giving wrong product path</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_10.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_10.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Giving right product path</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model1_output/output_11.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_11.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h2>Model 2 Sample Outputs</h2>
 <li>Select the Model 2 Check Box</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model2_output/output1.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model2_output/output1.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Error page for selecting the No Space image</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model2_output/output2.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model2_output/output2.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Error page for selecting the Long Space image</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model2_output/output3.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model2_output/output3.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Error page for selecting the Accurate image</li>&nbsp;
-<img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/Model2_output/output4.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model2_output/output4.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h3>Congratulations! You have successfully completed Challenge 4</h3>
-<h3>The next session is <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge5.md">Challenge 5</a></h3>
+<h3>The next session is <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge5.md">Challenge 5</a></h3>

@@ -64,7 +64,7 @@ namespace HeroSolutions
                                         else if (Intent == "DiscoverLocation")
                                             TextResult = "Please go till Gate 2 and take the elevator to second floor. You can find Woman's casual wear section on your righthand side";
                                         else if (Intent == "HowToGoToTrialRoom")
-                                            TextResult = "Trail toom is just 200 metres away from you on your left hand side. But looks like all trial rooms are busy now. Please try after 10 mins";
+                                            TextResult = "Trail room is just 200 metres away from you on your left hand side. But looks like all trial rooms are busy now. Please try after 10 mins";
                                         else if (Intent == "DiscoverPersonalizedDeals")
                                             TextResult = "Please proceed to cosmetic sections at the entrance of second floor. Swith to scan mode in your app and just scan the product that you are interested to buy. You will get Virtual vouchers for that product which you can redeem when you are buying it";
                                         else if (Intent == "DiscoverPaymentQueueLength")

@@ -1,7 +1,7 @@
 ﻿<body style="font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;">
 <div class="container">
-  <h1 style="font-size: 30px;font-weight: 700;">Hero Solutions</h1>
-  <img src="http://139.59.61.161/MSWorkshop2019/header.jpg" width="100%">
+  <h1 style="font-size: 30px;font-weight: 700;">Partner Tech Series</h1>
+  <img src="http://139.59.61.161/PartnerTechSeries2019/header.jpg" width="100%">
   <h2 style="margin: 10px 0;font-weight: 700;color: #222222;padding-bottom: 5px;
     font-size: 26px;">Azure Cognitive Services Bootcamp – Build a Comprehensive AI Solution that uses many independent cognitive services and package them together as a AI Solution offering</h2>
     <h2 style="padding-bottom: 1px;font-size: 26px;font-weight: 700;">About this Course</h2>
@@ -27,9 +27,9 @@
       <li>Building an enterprise level application use case scenarios using all these above</li>
     </ol>
     <h2 style="padding-bottom: 10px;font-size: 26px;font-weight: 700;">Architecture</h2>
-    <img src="http://139.59.61.161/MSWorkshop2019/HOL_Architecture.jpg" width="70%">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/HOL_Architecture.jpg" width="70%">
     <h2 style="padding-bottom: 10px;font-size: 26px;font-weight: 700;">Technologies Covered</h2>
-    <img src="http://139.59.61.161/MSWorkshop2019/HOL_Technology_Covered.png" width="70%">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/HOL_Technology_Covered.png" width="70%">
     <h2 style="padding-bottom: 10px;font-size: 26px;font-weight: 700;">Course Details</h2>
     <p style="margin: 10px 0 15px 0;">Primary Audience: Azure AI Developers, Solution Architects. Secondary Audience: Any professional interested in learning AI.</p>
     <h2 style="padding-bottom: 10px;font-size: 26px;font-weight: 700;">Level</h2>
@@ -56,13 +56,13 @@
       <li>Automation of “Quality Control” of PDI process</li>
       <li>Chat bot-based reporting of work and approval of work</li>
     </ul>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge0.md" target="_blan">Challenge 0 </a>– Infrastructure Setup and Verification</p>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge1.md" target="_blank">Challenge 1 </a>– Image Validation using Azure Computer Vision</p>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge2.md" target="_blank">Challenge 2 </a>– Gesture Management using Azure Custom Vision</p>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge3.md" target="_blank">Challenge 3 </a>– Gesture Management using Azure Custom Vision</p>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge4.md" target="_blank">Challenge 4 </a>– Quality Control of PDI Verification using Custom Vision Models</p>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge5.md" target="_blank">Challenge 5 </a>– Automatic Extraction of Key Phrases using Azure OCR and LUIS</p>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/blob/master/Challenge6.md" target="_blank">Challenge 6 </a>– Integration of NLP based Chat bot for Task Management</p>
+     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge0.md" target="_blan">Challenge 0 </a>– Infrastructure Setup and Verification</p>
+     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge1.md" target="_blank">Challenge 1 </a>– Image Validation using Azure Computer Vision</p>
+     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge2.md" target="_blank">Challenge 2 </a>– Gesture Management using Azure Custom Vision</p>
+     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge3.md" target="_blank">Challenge 3 </a>– Gesture Management using Azure Custom Vision</p>
+     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge4.md" target="_blank">Challenge 4 </a>– Quality Control of PDI Verification using Custom Vision Models</p>
+     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge5.md" target="_blank">Challenge 5 </a>– Automatic Extraction of Key Phrases using Azure OCR and LUIS</p>
+     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Challenge6.md" target="_blank">Challenge 6 </a>– Integration of NLP based Chat bot for Task Management</p>
      <h2 style="padding-bottom: 1px;font-size: 26px;font-weight: 700;">Certifications</h2>
       <p style="margin: 10px 0 15px 0;">Post the session if you are interested in taking up Microsoft Certifications, they following are most appropriate for this session</p>
       <ul>
