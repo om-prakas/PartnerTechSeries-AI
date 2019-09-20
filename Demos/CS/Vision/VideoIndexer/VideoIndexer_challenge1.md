@@ -21,8 +21,8 @@
   	<blockquote>
         <pre>
            <code>
-&lt;add key ="VideoPlayer1" value="https://www.videoindexer.ai/embed/player/4756daa9-ccf9-4be5-ad70-d07200c86f53/acaef95928/"/&gt;
-&lt;add key ="VideoInsights1" value="https://www.videoindexer.ai/embed/insights/4756daa9-ccf9-4be5-ad70-d07200c86f53/acaef95928/"/&gt;
+&lt;add key ="VideoPlayer1" value="https://www.videoindexer.ai/embed/player/de293372-7e31-4e9d-a7cd-4b3ea2de924b/7dcff184e1/"/&gt;
+&lt;add key ="VideoInsights1" value="https://www.videoindexer.ai/embed/insights/de293372-7e31-4e9d-a7cd-4b3ea2de924b/7dcff184e1/"/&gt;
             </code>
         </pre>
    </blockquote>
@@ -31,8 +31,8 @@
   	<blockquote>
         <pre>
            <code>
-&lt;add key ="VideoPlayer2" value="https://www.videoindexer.ai/embed/player/4756daa9-ccf9-4be5-ad70-d07200c86f53/01353fb32d/"/&gt;
-&lt;add key ="VideoInsights2" value="https://www.videoindexer.ai/embed/insights/4756daa9-ccf9-4be5-ad70-d07200c86f53/01353fb32d/"/&gt;
+&lt;add key ="VideoPlayer2" value="https://www.videoindexer.ai/embed/player/de293372-7e31-4e9d-a7cd-4b3ea2de924b/67e196b1ac/"/&gt;
+&lt;add key ="VideoInsights2" value="https://www.videoindexer.ai/embed/insights/de293372-7e31-4e9d-a7cd-4b3ea2de924b/67e196b1ac/"/&gt;
             </code>
         </pre>
    </blockquote>
@@ -55,4 +55,4 @@
 <img src="http://139.59.61.161/VideoIndexer/31.jpg" alt="image" style="max-width:100%;">&nbsp;
 <h3>Congratulations! You have successfully completed Challenge 1</h3>
 <h3>Next steps</h3>
-<li><a href="https://github.com/jumpstartninjatech/AI-TechSeries/blob/master/Demos/CS/Vision/VideoIndexer/VideoIndexer_challenge2.md">Challenge 2: Creating new Video Indexer</a> or <a href="">Back to ReadMe</a></li>
+<li><a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/Demos/CS/Vision/VideoIndexer/VideoIndexer_challenge2.md">Challenge 2: Creating new Video Indexer</a> or <a href="">Back to ReadMe</a></li>
