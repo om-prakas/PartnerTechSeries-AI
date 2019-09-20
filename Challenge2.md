@@ -39,7 +39,7 @@
 <strong>
 <li>Copy and Paste the code given below in 'GestureHandler.cs', (i.e) below the comment 'Paste the GestureHandler Class code here...'</li>
 <li>Follow the picture shown below to navigate to the GestureHandler.cs file</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/13.PNG" alt="image" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/Class/13-New.PNG" alt="image" style="max-width:100%;">&nbsp;
 <blockquote>
 <pre>
 <code>
