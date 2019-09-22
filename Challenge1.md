@@ -17,15 +17,15 @@
     <li>Following are the output screens of the application. Since the database doesn't contain any entries, all the screen will be empty.</li>
     <li>Home page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/main.PNG" alt="image" style="max-width:100%;">&nbsp;
-    <li>Navigating to Admin page</li>&nbsp;
+    <li>Navigate to Admin page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_1.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Admin Index page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index.PNG" alt="image" style="max-width:100%;">&nbsp;
-    <li>Navigating to Image Validation page</li>&nbsp;
+    <li>Navigate to Image Validation page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Image Validation page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_validation.PNG" alt="image" style="max-width:100%;">&nbsp;
-    <li>Navigating to Gesture Management page</li>&nbsp;
+    <li>Navigate to Gesture Management page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index_2.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Gesture Management page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/gesture_management.PNG" alt="image" style="max-width:100%;">&nbsp;
