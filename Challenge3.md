@@ -263,8 +263,8 @@ public class FaceRegistrationHandler
             }
         }
     }
-  </code>
- </pre>
+</code>
+</pre>
 </blockquote>
 <li>Also add the below namespace in 'FaceRegistrationHandler.cs' file</li>
 <blockquote>
