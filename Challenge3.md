@@ -263,11 +263,16 @@ public class FaceRegistrationHandler
             }
         }
     }
-}
-				</code>
-			</pre>
-		</blockquote>
-	</strong>
+  </code>
+ </pre>
+</blockquote>
+<li>Also add the below namespace in 'FaceRegistrationHandler.cs' file</li>
+<blockquote>
+<pre>
+ <code>using RestSharp;</code>
+</pre>
+</blockquote>
+</strong>
 <p>To save the details of a User in the database, follow the code below.</p>
   <strong>
     <li>Paste the code given below in 'StorageHandler.cs', (i.e) below the comment 'Paste the 'FaceRegistrationUserTable' Class code here...'</li>
