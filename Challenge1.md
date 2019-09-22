@@ -258,9 +258,9 @@ public class ImageValidationHandler
 </blockquote>
 <li>Also add the below namespace in 'ImageValidationHandler.cs' file</li>
 <blockquote>
-    <pre>
-        <code>using RestSharp;</code>
-    </pre>
+<pre>
+ <code>using RestSharp;</code>
+</pre>
 </blockquote>
 </strong>
  <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/10.PNG" alt="image" style="max-width:100%;">
