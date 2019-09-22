@@ -53,10 +53,10 @@
     <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/QCC_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Quality Control Check page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/QCC_2.PNG" alt="image" style="max-width:100%;">&nbsp;
-    <h2>Installed Nuget Packages</h2>
-    <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
-    <p>Below is the sample installation procedure</p>
-    <li>Installing the 'RestSharp' Nuget Package</li>
+    <h2>Installed Nuget Package</h2>
+    <p>The Nuget package installed in this project is 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
+    <p>Below is the installation procedure to install 'RestSharp' package</p>
+    <li>Install the 'RestSharp' Nuget Package</li>
     <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/5.PNG" alt="image" style="max-width:100%;">
     <li>Click on the Browse tab, type 'RestSharp' and press Enter. From the search result set, select the specified package & project and click on Install</li>&nbsp;
