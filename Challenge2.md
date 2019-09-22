@@ -136,6 +136,12 @@ public class GestureHandler
 </code>
 </pre>
 </blockquote>
+<li>Also add the below namespace in 'GestureHandler.cs' file</li>
+<blockquote>
+<pre>
+ <code>using RestSharp;</code>
+</pre>
+</blockquote>
 </strong>
 </ol>
 <h2>Azure SQL Server Table Updates</h2>
