@@ -973,7 +973,7 @@ public ActionResult image_validation()
 <img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment1.PNG" style="max-width:100%;">&nbsp;
 <li>Select the code from line number 221</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment2.PNG" style="max-width:100%;">&nbsp;
-<li>Select the code till line number 271</li>&nbsp;
+<li>Select the code till line number 270</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment3.PNG" style="max-width:100%;">&nbsp;
 <li>Click on the uncomment button</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment4.png" style="max-width:100%;">&nbsp;
