@@ -177,6 +177,12 @@ public class QualityControlChecker
 </code>
 		</pre>
 		</blockquote>
+<li>Also add the below namespace in 'QualityControlChecker.cs' file</li>
+<blockquote>
+<pre>
+ <code>using RestSharp;</code>
+</pre>
+</blockquote>
 	</strong>
 </ol>
 <li>Follow the screenshot shown below to navigate to the Facade.cs file</li>&nbsp;
